@@ -1,3 +1,4 @@
+import brostouchKOK from "./images/Brostouch_Kok.png"
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
@@ -9,6 +10,7 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 
 export{
+    brostouchKOK,
     logo,
     bannerImg,
     projectOne,
