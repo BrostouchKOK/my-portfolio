@@ -1,16 +1,20 @@
-import React from "react";
 import ResumeCard from "./ResumeCard";
+import { motion } from "framer-motion";
 
 const Education = () => {
   return (
-    <div className="flex justify-between gap-20">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.7 } }}
+      className="flex justify-between gap-20"
+    >
       <div>
-        <div className="py-12">
+        <div className="py-12 flex flex-col gap-4">
           <p className="text-designColo text-sm tracking-[4px]">1998 -2010</p>
           <h2 className="text-4xl font-bold">Education Quality</h2>
         </div>
         <div
-          className="mt-14 w-full h-[700px] border-l-[6px] border-l-black 
+          className="mt-8 w-full h-[700px] border-l-[6px] border-l-black 
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
@@ -26,12 +30,12 @@ const Education = () => {
         </div>
       </div>
       <div>
-        <div className="py-12">
+        <div className="py-12 flex flex-col gap-4">
           <p className="text-designColo text-sm tracking-[4px]">2010 - 2020</p>
           <h2 className="text-4xl font-bold">Experience</h2>
         </div>
         <div
-          className="mt-14 w-full h-[800px] border-l-[6px] border-l-black 
+          className="mt-8 w-full h-[800px] border-l-[6px] border-l-black 
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
@@ -51,7 +55,7 @@ const Education = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,9 +1,13 @@
-import React from 'react'
-import ResumeCard from './ResumeCard'
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
   return (
-    <div className="flex justify-between gap-20">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.7 } }}
+      className="flex justify-between gap-20"
+    >
       <div>
         <div className="py-12">
           <p className="text-designColo text-sm tracking-[4px]">2010 - 2020</p>
@@ -30,8 +34,8 @@ const Experience = () => {
           />
         </div>
       </div>
-    </div>
-  )
-}
+    </motion.div>
+  );
+};
 
-export default Experience
+export default Experience;

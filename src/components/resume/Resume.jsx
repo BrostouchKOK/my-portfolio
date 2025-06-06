@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Title from "../layout/Title";
-import ResumeCard from "./ResumeCard";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
@@ -23,7 +22,7 @@ const Resume = () => {
               setSkillsData(false);
               setExprienceData(false);
             }}
-            className="resumeLi"
+            className={`${educationData?"border-designColo rounded-lg":"border-transparent"} resumeLi`}
           >
             Education
           </li>
@@ -33,7 +32,7 @@ const Resume = () => {
               setSkillsData(true);
               setExprienceData(false);
             }}
-            className="resumeLi"
+            className={`${skillsData?"border-designColo rounded-lg":"border-transparent"} resumeLi`}
           >
             Best Skills On
           </li>
@@ -43,7 +42,7 @@ const Resume = () => {
               setEducationData(false);
               setSkillsData(false);
             }}
-            className="resumeLi"
+            className={`${experienceData?"border-designColo rounded-lg":"border-transparent"} resumeLi`}
           >
             Experience
           </li>
@@ -52,9 +51,6 @@ const Resume = () => {
       {educationData && <Education />}
       {skillsData && <Skills />}
       {experienceData && <Experience />}
-      {/* <Education/> */}
-      {/* <Skills/> */}
-      {/* <Experience /> */}
     </section>
   );
 };
