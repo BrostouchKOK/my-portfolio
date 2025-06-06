@@ -19,7 +19,7 @@ const Card = ({ title, des, icon }) => {
             </span>
           </div>
           <div className="flex flex-col gap-6">
-            <h2 className="text-2xl font-bold text-gray-300">{title}</h2>
+            <h2 className="text-xl md:text-2xl font-bold text-gray-300">{title}</h2>
             <p className="text-base">{des}</p>
             <span className="text-2xl text-designColo">
               <HiArrowRight />

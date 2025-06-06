@@ -6,15 +6,15 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.7 } }}
-      className="flex justify-between gap-20"
+      className="flex flex-col lgl:flex-row justify-between gap-10 lgl:gap-20"
     >
-      <div>
-        <div className="py-12">
+       <div>
+        <div className="py-6 lgl:py-12 flex flex-col gap-4">
           <p className="text-designColo text-sm tracking-[4px]">2010 - 2020</p>
-          <h2 className="text-4xl font-bold">Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
         </div>
         <div
-          className="mt-14 w-1/2 h-[800px] border-l-[6px] border-l-black 
+          className="mt-6 lgl:mt-8 w-full h-[800px] border-l-[6px] border-l-black 
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard

@@ -55,14 +55,14 @@ const Contacts = () => {
         <Title title="Contact" desc="Contact With Me" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex justify-between">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactsLeft />
           <div
-            className="w-[60%] h-full flex flex-col py-10
-          bg-gradient-to-r from-[#1e2024] to-[#23272b] gap-8 p-8
+            className="w-full lgl:w-[60%] h-full flex flex-col py-4 lgl:py-10
+          bg-gradient-to-r from-[#1e2024] to-[#23272b] gap-4 lgl:gap-8 p-4 lgl:p-8
           rounded-lg shadow-shadowOne"
           >
-            <form className="w-full flex flex-col gap-6">
+            <form className="w-full flex flex-col gap-3 lgl:gap-6">
               {errMsg && (
                 <p
                   className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOn
@@ -79,8 +79,8 @@ const Contacts = () => {
                   {successMsg}
                 </p>
               )}
-              <div className="w-full flex gap-10">
-                <div className="w-1/2 flex flex-col gap-4">
+              <div className="w-full flex flex-col lgl:flex-row gap-5 lgl:gap-10">
+                <div className="w-full lgl:w-1/2 flex flex-col  gap-4">
                   <p className="text-sm uppercase tracking-wide">Your Name</p>
                   <input
                     onChange={(e) => setUsername(e.target.value)}
@@ -91,7 +91,7 @@ const Contacts = () => {
                     } contactInput`}
                   />
                 </div>
-                <div className="w-1/2 flex flex-col gap-4">
+                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                   <p className="text-sm uppercase tracking-wide">
                     Phone Number
                   </p>

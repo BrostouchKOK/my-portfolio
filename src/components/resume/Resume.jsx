@@ -15,7 +15,7 @@ const Resume = () => {
         <Title title="CHECK MY RESUME" desc="My Resume" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-3">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <li
             onClick={() => {
               setEducationData(true);
@@ -34,7 +34,7 @@ const Resume = () => {
             }}
             className={`${skillsData?"border-designColo rounded-lg":"border-transparent"} resumeLi`}
           >
-            Best Skills On
+            My Skills
           </li>
           <li
             onClick={() => {

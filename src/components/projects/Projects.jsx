@@ -15,7 +15,7 @@ const Projects = () => {
           desc="My Project"
         />
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-10">
         <ProjectCard
           src={projectOne}
           title={"SOCIAL MEDIA CLONE"}
