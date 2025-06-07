@@ -10,7 +10,7 @@ const Navbar = () => {
   console.log(showMenu);
   return (
     <div className="w-full h-20 sticky top-0 bg-bodyColor z-50 mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600">
-      <div className="text-xl font-bold">Portfolio</div>
+      <div className="text-3xl text-designColo font-bold">Portfolio</div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lgl:gap-10">
           {navLinkData.map((navlink) => (
@@ -62,8 +62,10 @@ const Navbar = () => {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        onClick={()=>setShowMenu(false)}
-                      >{item.title}</Link>
+                        onClick={() => setShowMenu(false)}
+                      >
+                        {item.title}
+                      </Link>
                     </li>
                   ))}
                 </ul>
