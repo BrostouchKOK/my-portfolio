@@ -44,7 +44,7 @@ const Projects = () => {
         />
         <ProjectCard
           src={car_rental}
-          title={"SOCIAL MEDIA CLONE"}
+          title={"Car Rental Website"}
           des="Reliable and affordable car rentals for every occasion. Choose from a wide range of vehicles, enjoy flexible booking, and hit the road with confidence and ease."
           githubLink="https://github.com/BrostouchKOK/car-rental.git"
           webLink="https://t-car-rental.netlify.app/"

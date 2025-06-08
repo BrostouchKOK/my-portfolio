@@ -11,7 +11,7 @@ const Education = () => {
       {/* part 1 */}
       <div>
         <div className="py-6 lgl:py-12 flex flex-col gap-4">
-          <p className="text-designColo text-sm tracking-[4px]">1998 -2010</p>
+          <p className="text-designColo text-sm tracking-[4px]">2011 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div
@@ -19,21 +19,23 @@ const Education = () => {
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
-            title="BSc in Computer Science"
-            subtitle="University of DVI (2006 - 2010)"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Completed a Bachelor's degree in Computer Science"
+            subtitle="Royal University of Phnom Penh (2021 - 2025)"
+            des="Completed a rigorous program covering programming, software development, algorithms, databases, and web technologies. Gained strong problem-solving skills through hands-on projects and collaborative work."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subtitle="SuperKing College (2001 - 2005)"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Primary to Secondary to High School"
+            subtitle="Sereysamki, Outompor, Triel High School (2011 - 2021)"
+            des="Completed primary to high school education with a solid foundation in core subjects and strong academic discipline and communication skills."
           />
         </div>
       </div>
       {/* part 2 */}
       <div>
         <div className="py-6 lgl:py-12 flex flex-col gap-4">
-          <p className="text-designColo text-sm tracking-[4px]">2010 - 2020</p>
+          <p className="text-designColo text-sm tracking-[4px]">
+            My Experience
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
         </div>
         <div
@@ -41,19 +43,19 @@ const Education = () => {
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
-            title="BSc in Computer Science"
-            subtitle="University of DVI (2006 - 2010)"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="GEO Operator"
+            subtitle="Grab Company (Jun 2023 - Jan 2024)"
+            des="Worked on geolocation data accuracy and mapping updates to support Grab’s platform performance and user experience."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subtitle="SuperKing College (2001 - 2005)"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Frontend Trainee"
+            subtitle="Kilo IT Organization (Jun 2024 - Dec 2024)"
+            des="Trained in frontend development, focusing on building responsive web interfaces and improving coding skills."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subtitle="SuperKing College (2001 - 2005)"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Computer Teacher (MS Office, C/C++)"
+            subtitle="Addbook Compter Centre (Dec 2024 - Present)"
+            des="Teaching MS Office and C/C++ programming to students, focusing on practical skills and programming fundamentals."
           />
         </div>
       </div>

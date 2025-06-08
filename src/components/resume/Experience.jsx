@@ -18,19 +18,19 @@ const Experience = () => {
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
-            title="BSc in Computer Science"
-            subtitle="University of DVI (2006 - 2010)"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="GEO Operator"
+            subtitle="Grab Company (Jun 2023 - Jan 2024)"
+            des="Worked on geolocation data accuracy and mapping updates to support Grab’s platform performance and user experience."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subtitle="SuperKing College (2001 - 2005)"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Frontend Trainee"
+            subtitle="Kilo IT Organization (Jun 2024 - Dec 2024)"
+            des="Trained in frontend development, focusing on building responsive web interfaces and improving coding skills."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subtitle="SuperKing College (2001 - 2005)"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Computer Teacher (MS Office, C/C++)"
+            subtitle="Addbook Compter Centre (Dec 2024 - Present)"
+            des="Teaching MS Office and C/C++ programming to students, focusing on practical skills and programming fundamentals."
           />
         </div>
       </div>

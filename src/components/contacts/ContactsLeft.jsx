@@ -31,13 +31,19 @@ const ContactsLeft = () => {
         <h2 className="text-base mb-2 uppercase">Find Me In</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebook />
+            <a href="https://www.facebook.com/brostouch.kok" target="_blank">
+              <FaFacebook />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTelegram />
+            <a href="https://x.com/BrostouchK58204?s=09" target="_blank">
+              <FaTwitter />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a href="https://t.me/BrostouchK" target="_blank">
+              <FaTelegram />
+            </a>
           </span>
         </div>
       </div>
