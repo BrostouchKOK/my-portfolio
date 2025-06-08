@@ -1,5 +1,4 @@
 import brostouchKOK from "./images/Brostouch_Kok.png"
-import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
@@ -12,10 +11,10 @@ import clothes_shop from "./images/projects/clothes-shop.png";
 import restaurant from "./images/projects/restaurant.png";
 import car_rental from "./images/projects/car-rental.png";
 import computer_shop from "./images/projects/phone-and-computer-store.png";
+import aboutImg from "./images/about/aboutImg.png"
 
 export{
     brostouchKOK,
-    logo,
     bannerImg,
     projectOne,
     projectTwo,
@@ -28,5 +27,6 @@ export{
     clothes_shop,
     computer_shop,
     restaurant,
+    aboutImg,
 }
 

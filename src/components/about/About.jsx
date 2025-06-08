@@ -1,16 +1,18 @@
 import Title from "../layout/Title";
-import { bannerImg } from "../../assets/index";
+import { aboutImg } from "../../assets/index";
 
 const About = () => {
   return (
     <section id="about" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="w-full xl:w-[80%] grid grid-cols-1 lgl:grid-cols-2 
-        gap-8 lgl:gap-20">
+      <div
+        className="w-full xl:w-[80%] grid sm:grid-cols-1 sml:grid-cols-2 
+        gap-8 lgl:gap-20"
+      >
         <div
           className="p-8 flex items-center justify-center shadow-shadowOne
           rounded-lg"
         >
-          <img className="lgl:w-[400px] lgl:h-[600px]" src={bannerImg} alt="" />
+          <img className="lgl:w-[400px] lgl:h-[600px]" src={aboutImg} alt="" />
         </div>
         <div className="flex flex-col items-start justify-center">
           <Title title={"About"} desc={"A boute me"} />
