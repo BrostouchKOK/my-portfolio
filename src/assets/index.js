@@ -8,6 +8,10 @@ import testimonailOne from "./images/testmonial/testimonialOne.png";
 import testimonailTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import clothes_shop from "./images/projects/clothes-shop.png";
+import restaurant from "./images/projects/restaurant.png";
+import car_rental from "./images/projects/car-rental.png";
+import computer_shop from "./images/projects/phone-and-computer-store.png";
 
 export{
     brostouchKOK,
@@ -20,5 +24,9 @@ export{
     testimonailTwo,
     quote,
     contactImg,
+    car_rental,
+    clothes_shop,
+    computer_shop,
+    restaurant,
 }
 

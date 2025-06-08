@@ -3,14 +3,22 @@ import { navLinkData } from "../../constants/index";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
-import { li } from "framer-motion/client";
+
 import { FaFacebook, FaTelegram, FaTwitter } from "react-icons/fa";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  console.log(showMenu);
   return (
     <div className="w-full h-20 sticky top-0 bg-bodyColor z-50 mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600">
-      <div className="text-3xl text-designColo font-bold">Portfolio</div>
+      <Link
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        className="text-3xl text-designColo font-bold cursor-pointer"
+      >
+        Portfolio
+      </Link>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lgl:gap-10">
           {navLinkData.map((navlink) => (

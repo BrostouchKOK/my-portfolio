@@ -1,5 +1,11 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebook, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaLinkedinIn,
+  FaReact,
+  FaTelegram,
+} from "react-icons/fa";
 import { SiTailwindcss, SiNodedotjs, SiReact, SiMongodb } from "react-icons/si";
 
 const LeftBanner = () => {
@@ -38,13 +44,19 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase mb-4">FIND ME IN</h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebook />
+              <a href="https://www.facebook.com/brostouch.kok" target="_blank">
+                <FaFacebook />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+              <a href="https://x.com/BrostouchK58204?s=09" target="_blank">
+                <FaTwitter />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+              <a href="https://t.me/BrostouchK" target="_blank">
+                <FaTelegram />
+              </a>
             </span>
           </div>
         </div>
