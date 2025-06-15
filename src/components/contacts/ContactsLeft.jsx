@@ -1,5 +1,5 @@
 import { contactImg } from "../../assets/index";
-import { FaFacebook, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const ContactsLeft = () => {
   return (
@@ -33,6 +33,14 @@ const ContactsLeft = () => {
           <span className="bannerIcon">
             <a href="https://www.facebook.com/brostouch.kok" target="_blank">
               <FaFacebook />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a
+              href="https://www.linkedin.com/in/brostouch-kok-85a329316/"
+              target="_blank"
+            >
+              <FaLinkedinIn />
             </a>
           </span>
           <span className="bannerIcon">
