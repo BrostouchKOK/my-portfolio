@@ -8,13 +8,13 @@ const About = () => {
         className="w-full xl:w-[80%] grid sm:grid-cols-1 sml:grid-cols-2 
         gap-8 lgl:gap-20"
       >
-        <div
+        <div data-aos = "zoom-in"
           className="p-8 flex items-center justify-center shadow-shadowOne
           rounded-lg"
         >
           <img className="lgl:w-[400px] lgl:h-[600px]" src={aboutImg} alt="" />
         </div>
-        <div className="flex flex-col items-start justify-center">
+        <div data-aos = "zoom-in" className="flex flex-col items-start justify-center">
           <Title title={"About"} desc={"A boute me"} />
           <p className="text-sm leading-relaxed lgl:text-lg tracking-wide lgl:leading-loose">
             I am a recent Computer Science graduate from the Royal University of

@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedinIn, FaTelegram, FaTwitter } from "react-icons/fa"
 
 const ContactsLeft = () => {
   return (
-    <div
+    <div data-aos="zoom-in"
       className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 
           shadow-shadowOne rounded-lg flex flex-col justify-center gap-5"
     >

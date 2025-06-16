@@ -10,7 +10,7 @@ const Resume = () => {
   const [experienceData, setExprienceData] = useState(false);
 
   return (
-    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+    <section data-aos="zoom-in" id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex items-center justify-center text-center">
         <Title title="CHECK MY RESUME" desc="My Resume" />
       </div>

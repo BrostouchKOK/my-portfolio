@@ -2,7 +2,7 @@ import React from "react";
 
 const Title = ({title,desc}) => {
   return (
-    <div className="flex flex-col gap-4 mb-14">
+    <div data-aos="zoom-in-up" className="flex flex-col gap-4 mb-14">
       <h3 className="text-sm uppercase font-light text-designColo tracking-wide">
         {title}
       </h3>

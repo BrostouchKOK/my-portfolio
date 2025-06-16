@@ -8,6 +8,7 @@ import {
 const Footer = () => {
   return (
     <div
+      data-aos="zoom-in"
       className="w-full h-auto py-10 lgl:py-20 border-b-[1px] border-b-black 
     grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-4 lgl:gap-8"
     >

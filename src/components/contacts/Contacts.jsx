@@ -54,7 +54,7 @@ const Contacts = () => {
       <div className="flex items-center justify-center text-center">
         <Title title="Contact" desc="Contact With Me" />
       </div>
-      <div className="w-full">
+      <div data-aos="zoom-in" className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactsLeft />
           <div

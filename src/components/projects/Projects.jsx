@@ -26,7 +26,7 @@ const Projects = () => {
       id="projects"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex items-center justify-center text-center">
+      <div  className="flex items-center justify-center text-center">
         <Title
           title="VISTI MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           desc="My Projects"
